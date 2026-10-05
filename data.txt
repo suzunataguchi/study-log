@@ -1,0 +1,23 @@
+2026-10-05 GitHub Pages学習記録
+
+【実施内容】
+・GitHubでリポジトリを作成
+・index.htmlを作成
+・GitHub Pagesを有効化
+・Webサイトを公開
+・index.htmlを編集して公開ページへの反映を確認
+・data.txtを作成
+・JavaScriptのfetch()でdata.txtを読み込み
+
+【理解したこと】
+・GitHub PagesはGitHub上のHTMLをWebサイトとして公開できる
+・公開URLはSettings → Pagesで確認できる
+・Commitすると公開ページに反映される
+・反映には数十秒～数分かかる場合がある
+・fetch("data.txt")でGitHub上のテキストファイルを読み込める
+
+【次に試したいこと】
+・CSSで文字サイズや色を変更する
+・複数行のデータを一覧表示する
+・Markdownの内容をWebページに表示する
+

@@ -16,7 +16,8 @@
         fetch("data.txt")
             .then(response => response.text())
             .then(text => {
-                document.getElementById("message").textContent = text;
+                document.getElementById("message").innerHTML =
+                    text.replace(/\n/g, "<br>");
             });
     </script>
 
